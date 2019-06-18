@@ -7,8 +7,8 @@ feature "Viewing bookmarks" do
   
   scenario "display all bookmarks" do
     visit "/bookmarks"
-    expect(page).to have_content("https://www.google.com")
-    expect(page).to have_content("https://www.makers.com")
-    expect(page).to have_content("https://www.yahoo.com")
+    expect(page).to have_content("http://www.google.com")
+    expect(page).to have_content("http://www.makersacademy.com")
+    expect(page).to have_content("http://www.destroyallsoftware.com")
   end
 end
