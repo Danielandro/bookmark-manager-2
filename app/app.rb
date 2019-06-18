@@ -5,10 +5,8 @@ class BookmarkManager < Sinatra::Base
     "Bookmark Manager"
   end
 
-  get "/bookmarks" do
-    @bookmarks = ["https://www.google.com",
-                  "https://www.makers.com",
-                  "https://www.yahoo.com"]
+  get "/bookmarks" do    
+    @bookmarks = Bookmark.all
 
     erb :"bookmarks/index"
   end  
