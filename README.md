@@ -16,3 +16,9 @@ Setup database:
 4. Run the query in `db/migrations/01_create_bookmarks_table.sql`
 
 Run `rackup` to start the app at `localhost:9292`
+
+setup test database:
+1. Connect to psql
+2. Create the database `CREATE DATABASE bookmark_manager_test`
+3. Connect to the database `\c bookmark_manager_test`
+4. Run the query in `db/migrations/01_create_bookmarks_table.sql`
