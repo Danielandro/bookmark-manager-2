@@ -3,9 +3,7 @@ Bookmark Manager
 
 Makers week 4 project - building a web app that aloows the user to store bookmarks to web pages
 
-Instructions
-------------
-------------
+### Instructions
 
 Clone this repo ``
 Run `bundle` to install dependencies
