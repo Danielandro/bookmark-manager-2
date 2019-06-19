@@ -22,3 +22,9 @@ setup test database:
 2. Create the database `CREATE DATABASE bookmark_manager_test`
 3. Connect to the database `\c bookmark_manager_test`
 4. Run the query in `db/migrations/01_create_bookmarks_table.sql`
+
+#### User stories
+
+As a user,
+So I can save my favourite pages,
+I want to add new bookmarks
