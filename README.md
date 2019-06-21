@@ -34,3 +34,6 @@ As a user,
 So I can remove a favourite page from bookmark manager,
 I want to delete a bookmark
 
+As a user,
+So I can change a bookmark in my bookmark manager,
+I would like to update a bookmark
