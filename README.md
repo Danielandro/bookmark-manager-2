@@ -27,6 +27,10 @@ Setup test database:
 #### User stories
 
 As a user,
-So I can save my favourite pages,
+So I can save my favourite pages to a bookmark manager,
 I want to add new bookmarks
+
+As a user,
+So I can remove a favourite page from bookmark manager,
+I want to delete a bookmark
 
