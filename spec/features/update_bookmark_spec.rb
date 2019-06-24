@@ -17,6 +17,6 @@ feature "Updating a bookmark" do
     # take user to bookmarks - check old details are gone, new ones are there
     expect(current_path).to eq "/bookmarks"
     expect(page).to have_link("NASA", href: "http://www.nasa.gov")
-    expect(page).not_to have_link("Test Bookmark", href:"http://www.testbookmark.com")
+    expect(page).not_to have_link("Test Bookmark", href: "http://www.testbookmark.com")
   end
 end

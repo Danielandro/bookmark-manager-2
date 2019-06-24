@@ -29,8 +29,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get "/bookmarks/:id/edit" do
-    # id is available as its included in the route
-    @bookmark_id = params[:id]
+    # id is available as its included in the route    
+    @bookmark = Bookmark.find(id: params[:id])
     erb :"bookmarks/edit"    
   end
   
